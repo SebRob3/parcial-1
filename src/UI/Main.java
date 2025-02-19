@@ -9,10 +9,10 @@ public class Main {
 	public Main() {
 		Vehiculo vehicle;
 		
-		vehicle = new Automovil(100, 80, 10);
+		vehicle = new Automovil(2000, 1619, 15);
 		System.out.println(vehicle.calculateAutonomia());
 		
-		vehicle = new Motocicleta(50, 30, 5);
+		vehicle = new Motocicleta(1043, 200, 3);
 		System.out.println(vehicle.calculateAutonomia());
 	}
 	

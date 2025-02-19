@@ -9,7 +9,7 @@ public class Motocicleta extends Vehiculo {
 
 	@Override
 	public double calculateAutonomia() {
-		return (8*Math.pow(10, 4)) / (this.cilindraje + (2*this.peso))/this.tamanioTanque;
+		return (8*Math.pow(10, 4)) / (this.cilindraje + (2*this.peso)) * this.tamanioTanque;
 	}
 	
 }
