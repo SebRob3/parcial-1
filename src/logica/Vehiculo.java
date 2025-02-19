@@ -7,7 +7,6 @@ public abstract class Vehiculo {
 	protected double tamanioTanque; //en galones
 	
 	public Vehiculo(double cilindraje, double peso, double tamanioTanque) {
-		super();
 		this.cilindraje = cilindraje;
 		this.peso = peso;
 		this.tamanioTanque = tamanioTanque;

@@ -4,7 +4,6 @@ public class Motocicleta extends Vehiculo {
 
 	public Motocicleta(double cilindraje, double peso, double tamanioTanque) {
 		super(cilindraje, peso, tamanioTanque);
-		this.calculateAutonomia();
 	}
 
 	@Override

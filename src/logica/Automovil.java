@@ -4,7 +4,6 @@ public class Automovil extends Vehiculo {
 
 	public Automovil(double cilindraje, double peso, double tamanioTanque) {
 		super(cilindraje, peso, tamanioTanque);
-		this.calculateAutonomia();
 	}
 
 	@Override
